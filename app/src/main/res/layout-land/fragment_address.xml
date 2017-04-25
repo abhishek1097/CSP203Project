@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context="menu.AddressFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/yug"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/yugandhar"
+        app:civ_border_color="#232528"
+        app:civ_border_width="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/address"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/ans_usr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/yug"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:text="Yugandhar Bandi"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/ph_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:pointerIcon="zoom_in"
+        android:text="9494555549"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_below="@+id/ans_usr_name"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ph_number"
+        android:layout_below="@+id/ph_number"
+        android:layout_marginTop="48dp"
+        android:text="Room no 302, Jupiter Hostel"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <TextView
+        android:id="@+id/gmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="40dp"
+        android:text="2015csb1009@iitrpr.ac.in"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <ImageButton
+        android:id="@+id/edit_ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/address"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/edit_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/address"
+        android:layout_alignEnd="@+id/edit_ph"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/edit_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gmail"
+        android:layout_alignEnd="@+id/edit_address"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit" />
+
+</RelativeLayout>

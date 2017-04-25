@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="#FFF"
+    tools:context="com.example.user.fazooz.HomeActivity">
+
+   <ImageView
+       android:id="@+id/splash_screen"
+       android:layout_width="250px"
+       android:layout_height="250px"
+       android:src="@drawable/splash"
+       android:layout_marginTop="205dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true" />
+
+   <TextView
+       android:id="@+id/splas_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Foodzie"
+       android:textStyle="bold"
+
+       android:fontFamily="Algerian"
+       android:textSize="30dp"
+       android:textAppearance="@android:style/TextAppearance.Large"
+       android:layout_marginTop="17dp"
+       android:layout_below="@+id/splash_screen"
+       android:layout_centerHorizontal="true" />
+
+   <ProgressBar
+       android:id="@+id/progressBar2"
+       style="?android:attr/progressBarStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/splas_text"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="57dp" />
+
+
+</RelativeLayout>

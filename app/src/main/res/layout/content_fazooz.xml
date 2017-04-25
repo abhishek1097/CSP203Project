@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout_for_fragment"
+    app:theme="@style/ThemeOverlay.AppCompat.Light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.fazooz.Fazooz"
+    tools:showIn="@layout/app_bar_fazooz"
+    android:clickable="true"
+    android:background="#FFFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/SliderDots"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+
+        <!--<ViewFlipper-->
+            <!--android:id="@+id/bckgrndViewFlipper1"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="257dp">-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/bckgrndImageView5"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="257dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/cake" />-->
+
+            <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/bckgrndImageView6"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="257dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:src="@drawable/coldcake" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/bckgrndImageView1"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="257dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:src="@drawable/download1" />&ndash;&gt;-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/bckgrndImageView4"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="257dp"-->
+                <!--android:cropToPadding="true"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/download2" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/bckgrndImageView3"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="257dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/download4" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/bckgrndImageView2"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="257dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/download3" />-->
+
+
+        <!--</ViewFlipper>-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <Button
+        android:id="@+id/order_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:background="@drawable/round_corners_button"
+        android:text="Order Now"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:alpha="50" />
+
+    <Button
+        android:id="@+id/current_order_foodzie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.4"
+        android:background="@drawable/round_corners_button"
+        android:paddingRight="5dp"
+        android:text="Current Orders"
+        android:alpha="50"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="17sp" />
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/local"
+        android:layout_marginTop="10dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/dosa"
+        android:layout_marginTop="0dp"
+        android:onClick="cartzz"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:src="@drawable/biryani"
+            android:onClick="img_click_2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:src="@drawable/milkshake"
+            android:onClick="img_click_3"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

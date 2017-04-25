@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    tools:context="menu.AddressFragment">
+
+
+    <ImageView
+        android:id="@+id/alok_yug"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/yugandhar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/alok_ans_usr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/alok_yug"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:text="Yugandhar Bandi"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/alok_ph_num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="09494555549"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/alok_imageButton"
+        android:layout_toEndOf="@+id/alok_imageButton" />
+
+    <TextView
+        android:id="@+id/alok_ph_num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alok_ph_num1"
+        android:layout_below="@+id/alok_ph_num1"
+        android:text="Mobile"
+        android:textColor="#4c5e7c"/>
+
+    <ImageButton
+        android:id="@+id/alok_imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/call"
+        android:layout_alignTop="@+id/alok_ph_num1"
+        android:layout_alignStart="@+id/alok_imageButton5" />
+
+    <ImageButton
+        android:id="@+id/alok_edit_ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit"
+        android:layout_alignTop="@+id/alok_ph_num1"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/alok_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Room no 302, Jupiter Hostel"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/alok_imageButton4"
+        android:layout_toEndOf="@+id/alok_imageButton4" />
+
+    <TextView
+        android:id="@+id/alok_address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alok_address"
+        android:layout_below="@+id/alok_address"
+        android:layout_marginEnd="9dp"
+        android:text="Address"
+        android:textColor="#4c5e7c"/>
+
+    <ImageButton
+        android:id="@+id/alok_address_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alok_edit_ph"
+        android:layout_alignTop="@+id/alok_address"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit" />
+
+    <TextView
+        android:id="@+id/alok_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="2015csb1009@iitrpr.ac.in"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/alok_imageButton5"
+        android:layout_alignStart="@+id/alok_address2" />
+
+    <TextView
+        android:id="@+id/alok_mail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alok_mail"
+        android:layout_below="@+id/alok_mail"
+        android:text="Email"
+        android:textColor="#4c5e7c"/>
+
+    <ImageButton
+        android:id="@+id/alok_imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/ic_mail_black_24dp"
+        android:layout_alignTop="@+id/alok_mail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp" />
+
+    <ImageButton
+        android:id="@+id/alok_imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alok_imageButton2"
+        android:layout_alignTop="@+id/alok_address"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/alok_mail_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit"
+        android:layout_alignTop="@+id/alok_mail"
+        android:layout_alignStart="@+id/alok_address_edit" />
+
+
+    <TextView
+        android:id="@+id/alok_ans_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="Yugandhar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_below="@+id/alok_ans_usr_name"
+        android:layout_toEndOf="@+id/alok_imageButton" />
+
+    <TextView
+        android:id="@+id/alok_usr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alok_ans_name"
+        android:layout_below="@+id/alok_ans_name"
+        android:text="Name"
+        android:textColor="#4c5e7c" />
+
+    <ImageButton
+        android:id="@+id/alok_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/profile"
+        android:layout_alignStart="@+id/alok_imageButton4"
+        android:layout_alignTop="@+id/alok_ans_name" />
+
+    <ImageButton
+        android:id="@+id/alok_imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/alok_edit_ph"
+        android:layout_alignTop="@+id/alok_ans_name"
+        android:background="#FFF"
+        android:backgroundTint="#FFF"
+        app:srcCompat="@drawable/edit" />
+
+</RelativeLayout>

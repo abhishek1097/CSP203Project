@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\55c453d74eca85f5f205e09fd47956862de4fcd5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_19de8f85ca3f59aa0f3f9caed48129a94211cb56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\17a7710bc90638ea29573663b6dbc49f0a7eb64a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_fa36d10aad155d8c36128a3e527280f5bfb02a21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\acab0dbdc8d57d742f8d39d5adbf6b2f46dde288\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e58d84fe6a7c378d0aef690696113f0c750613bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\acab0dbdc8d57d742f8d39d5adbf6b2f46dde288\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_a29f9fbe36124406000c4bed6003dda974147db6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\33ab42d683961160d9021a37dd46eb0401e9a545\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_f4853157dcfdfe645a492dcbb36d0d18bc66b865.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4f94ee57a1e21cb7fe9495730e8f3d30934cddc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.1_a517b4b685d8ba5eb7d20d6e942eedb53c5a752d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_0103f83adf5d37a9d29f1aa525ed237be18f660e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_57499916d6e2ad7e501556c780ea05e9adb2962d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\3d9739cd0da68797b241d668660f0e5b9c2d15a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_c4779fe7363e1ba893ebbd8c8cac11f0d9b44d15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0f4a83bcbfdbfdc84805caa8dbb14bd970dbb0c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_c40b04def4d000bc0af9f291f8452a11c7d661cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\57ea5f95d4de43e900aee5bf24d84e7559e49665\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_f1da3d0c700025d5671691eec5660b65ea41f470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\d008ed42ca3f54da012b78cc16bc41d5de22b021\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_150e51014b50e5368db325f671225b71869238e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\91eeab42d2d849990ce21dba78f92446d3d58ebf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_17fee94f9de154f083cfe306d461d95932ea8cad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\44de94ac788f42f035d5250c00cecf44ec32d4f5\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_10704ac0af1dcdec5d5ce4239424ce58d666adba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\17a7710bc90638ea29573663b6dbc49f0a7eb64a\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_011dff75f7fcb196e6870fa925c9a9ddc2bf8426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\94a0b667016ca0265ccce9ff4b417b4ea1e00717\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_634d511eaca9dc1a24f9d3f8e7555099b22122fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\94a0b667016ca0265ccce9ff4b417b4ea1e00717\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d49be6a4c0110e51481b6100806eb2ca020b9d1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\f2fcd5a419ccad07b1cbb4b068bb116acc33554b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_1c42fbc4e9ef0f3b64886f6a8a6543e94a7bb23c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\a9f969ce6ef48a76475e4f32ee2a74c33828fe2b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_ebe3ce875e28ab692caf332524f50603fa918b4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0ede94c446eebc7c1dd10c76667d84684c769b68\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_581ab8fefb7a4504f93d47fbbd35f1cde7de75b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\2ac38ac84fcb8a9be60552b6f2f3167e9c525742\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_47680dc76e1356f9fbe9b865d61dc11bfabed4bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0f4a83bcbfdbfdc84805caa8dbb14bd970dbb0c9\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e7463c23bbccf2663c56b28b08a0d00575c08aee.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d66bfa0de02ed714e585d6fb6dd7fcdd038c1043">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b63054d7e08b597b24baba231433ab72706cadd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\09945af2cf79c3b9216127bd5ba0edecc1de8bb3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_e0f68b25b334f86ab37eaf5edd0673aa83d1abe6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\44de94ac788f42f035d5250c00cecf44ec32d4f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_f2c3e8350918c1dded4e40b3af5bbb0abd797192.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\8383ce48ce981531603ce78cdea1c42b4bceadfb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_b8e9172351fd313b93bdb21bc2bd29cd760ef661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\72a03e4790cf4bd8bc682da2d382d147602730b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\user\AndroidStudioProjects\Fazooz\app\build\intermediates\pre-dexed\debug\classes_93badc0ad7273cab2404cffbd0666dbb237a61ce.jar" />
+    </item>
+
+</items>

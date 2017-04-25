@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.example.user.fazooz.Update_Menu">
+
+    <TextView
+        android:id="@+id/select_the_item_to_be_deleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Tap on the item"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentStart="true">
+        <TableLayout
+            android:id="@+id/seller_table_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/present_menu"
+            android:layout_marginTop="17dp">
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

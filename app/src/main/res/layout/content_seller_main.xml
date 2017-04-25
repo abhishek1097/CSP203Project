@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout_for_fragment_seller"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.fazooz.Seller_main"
+    tools:showIn="@layout/app_bar_seller_main"
+    android:background="#FFF">
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Menu"
+        android:textSize="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:onClick="update_menu"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_corners_button"
+        android:layout_alignBottom="@+id/current_orders"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/current_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_corners_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Current Orders"
+        android:textAllCaps="false"
+        android:onClick="current_orders"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seller_pic"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
